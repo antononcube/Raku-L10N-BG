@@ -1,0 +1,32 @@
+{
+    "name": "L10N::BG",
+    "description": "Bulgarian localization of Raku — a slang that lets a program be written with Bulgarian keywords",
+    "version": "0.0.1",
+    "raku": "6.d",
+    "meta-version": "0",
+    "authors": [
+        "Anton Antonov"
+    ],
+    "auth": "zef:antononcube",
+    "build-depends": [],
+    "test-depends": [
+        "Test"
+    ],
+    "provides": {
+        "L10N::BG": "lib/L10N/BG.rakumod",
+        "RakuAST::Deparse::L10N::BG": "lib/RakuAST/Deparse/L10N/BG.rakumod"
+    },
+    "support": {
+        "source": "https://github.com/antononcube/Raku-L10N-BG"
+    },
+    "license": "Artistic-2.0",
+    "tags": [
+        "LOCALIZATION",
+        "Bulgarian",
+        "BG",
+        "slang",
+        "RakuAST",
+        "L10N"
+    ],
+    "source-url": "https://github.com/antononcube/Raku-L10N-BG"
+}
