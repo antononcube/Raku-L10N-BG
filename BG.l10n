@@ -191,7 +191,7 @@ core-pair          двойка
 core-pairs         двойки
 core-pass          издържан
 core-permutations  пермутации
-core-pick          избери
+core-pick          набери
 core-plan          план
 core-pop           извади
 core-prepend       добави-отпред
@@ -212,7 +212,7 @@ core-return-rw   върни-чз
 core-reverse     обратно
 core-rindex      риндекс
 core-rmdir       изтрий-директория
-core-roll        хвърли
+core-roll        нахвърли
 core-roots       корени
 core-rotate      завърти
 core-round       закръгли
@@ -265,7 +265,7 @@ core-truncate       съкрати
 core-uc        главни
 core-unique    уникални
 core-unlike    не-прилича
-core-unlink    изтрий
+core-unlink    отвържи
 core-unshift   вмъкни-отпред
 core-use-ok    използвай-ок
 
