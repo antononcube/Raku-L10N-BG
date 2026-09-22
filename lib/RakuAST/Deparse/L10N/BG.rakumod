@@ -1,4 +1,4 @@
-# This file contains the Russian deparsing logic for the Raku
+# This file contains the Bulgarian deparsing logic for the Raku
 # Programming Language.
 
 #- start of generated part of localization ------------------------------------
@@ -14,5 +14,3 @@ role RakuAST::Deparse::L10N::BG {
 
 #- PLEASE DON'T CHANGE ANYTHING ABOVE THIS LINE
 #- end of generated part of localization --------------------------------------
-
-# vim: expandtab shiftwidth=4

@@ -1,4 +1,4 @@
-# This file contains the Russian Slang of the Raku Programming Language
+# This file contains the Bulgarian Slang of the Raku Programming Language
 
 #- start of generated part of localization ------------------------------------
 #- Generated on 2026-09-22T11:37:16-04:00 by update-localization.raku
