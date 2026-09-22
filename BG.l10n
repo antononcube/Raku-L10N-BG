@@ -50,7 +50,7 @@ block-loop      цикъл
 block-orwith    илис
 block-repeat    повтори
 block-unless    аконе
-block-until     докато
+block-until     докатоне
 block-when      когато
 block-whenever  всекипът
 block-while     докато
@@ -234,7 +234,7 @@ core-slurp        прочети
 core-snitch       надникни
 core-so           така
 core-sort         сортирай
-core-splice       вмъкни
+core-splice       присъедини
 core-split        раздели
 core-sprintf      форматирай
 core-spurt        запиши
@@ -449,7 +449,7 @@ package-package  пакет
 package-role     роля
 
 # KEY           TRANSLATION
-phaser-CATCH    ХВАНИ
+phaser-CATCH    ЛОВИ
 phaser-CLOSE    ЗАТВАРЯНЕ
 phaser-CONTROL  УПРАВЛЕНИЕ
 phaser-END      КРАЙ
@@ -488,7 +488,7 @@ scope-augment   допълни
 scope-constant  константа
 scope-has       има
 scope-HAS       ИМА
-scope-my        мой
+scope-my        моя
 scope-our       наш
 scope-state     състояние
 scope-unit      единица
@@ -511,7 +511,7 @@ stmt-prefix-try      опитай
 # KEY      TRANSLATION
 term-now   сега
 term-rand  случайно
-term-self  сам
+term-self  себеси
 term-time  време
 
 # KEY                           TRANSLATION

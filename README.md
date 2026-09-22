@@ -1,7 +1,7 @@
 # L10N::BG
 
 Bulgarian localization of Raku — a slang that lets a program be written with
-Bulgarian keywords — `мой` for `my`, `если` for `if`, `скажи` for `say` — and
+Bulgarian keywords — `моя` for `my`, `ако` for `if`, `кажи` for `say` — and
 the deparser that prints such a program back out in Bulgarian again.
 
 ## Version
@@ -267,7 +267,7 @@ Two more that nothing above runs into. Under Raku++, `subst` checks its
 adverbs against the engine's own regex-adverb names before any localization is
 applied, so `"a.b.c".замени(".", "-", :глобално)` is rejected with
 `Unrecognized regex adverb` — an English `:global` is what it wants, and why
-`examples/wordcount.raku` reaches for `разчеши` (`comb`) instead. And a method
+`examples/wordcount.raku` reaches for `среши` (`comb`) instead. And a method
 call on a `Range` inside code compiled through `.AST` returns a `Range`
 instead of dispatching: `Q[('a'..'z').elems].AST.EVAL` is `0..1` rather than
 `26`.

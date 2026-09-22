@@ -1,0 +1,23 @@
+#!/usr/bin/env raku
+
+# Executor for the Bulgarian localization of the Raku Programming Language: it
+# re-runs the interpreter that invoked it with the BG slang already loaded,
+# so a program needs no `use L10N::BG` line of its own — and, given no
+# arguments, opens a localized REPL.
+#
+# The family's template passes -M through RAKUDO_OPT, which only Rakudo
+# reads; this one passes it on the command line, which both engines read.
+# Which engine you get is whichever one `raku` is, since this re-runs the
+# interpreter that invoked it.
+#
+# The RAKUDO_RAKUAST setting stays in the environment because a Rakudo up to
+# v2026.08 needs it: the slang is a RakuAST grammar mixin, so the file has to
+# be parsed by the RakuAST grammar. It is the default from v2026.09, where
+# this is redundant and harmless. Raku++ has no such switch and ignores it.
+
+%*ENV<RAKUDO_RAKUAST> = 1;
+
+my $proc := run $*EXECUTABLE, '-ML10N::BG', @*ARGS;
+exit $proc.exitcode;
+
+# vim: expandtab shiftwidth=4
