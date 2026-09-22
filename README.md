@@ -283,7 +283,7 @@ instead of dispatching: `Q[('a'..'z').elems].AST.EVAL` is `0..1` rather than
 
 Anton Antonov (`zef:antononcube`).
 
-Localized to Bulgarian from the Raku Russian localization package ["L10N-RU](https://github.com/ash/raku-modules/tree/main/L10N-RU) by Andrew Shitov.
+Localized to Bulgarian from the Raku Russian localization package ["L10N-RU"](https://github.com/ash/raku-modules/tree/main/L10N-RU) by Andrew Shitov.
 
 ## Licence
 
