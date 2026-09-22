@@ -20,12 +20,6 @@ use L10N::BG;
     кажи $ч ако $ч мод 3 равно 0
 }
 ```
-```
-# сума: 55
-# 3
-# 6
-# 9
-```
 
 ## Install
 
@@ -58,11 +52,6 @@ because the localization can be named:
 my $ast := Q[моя $х = 1].AST("BG");
 say $ast.DEPARSE("BG");    # моя $х = 1
 say $ast.DEPARSE;          # my $х = 1
-```
-```
-# моя $х = 1
-# 
-# my $х = 1
 ```
 
 The last line is the point: there is no Bulgarian Raku. `.AST("BG")` builds the
