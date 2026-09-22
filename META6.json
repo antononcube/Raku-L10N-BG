@@ -1,7 +1,7 @@
 {
     "name": "L10N::BG",
     "description": "Bulgarian localization of Raku — a slang that lets a program be written with Bulgarian keywords",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "raku": "6.d",
     "meta-version": "0",
     "authors": [
