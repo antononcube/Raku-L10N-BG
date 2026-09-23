@@ -6,7 +6,7 @@ the deparser that prints such a program back out in Bulgarian again.
 
 ## Version
 
-0.0.1
+0.0.2
 
 ## Synopsis
 
